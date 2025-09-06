@@ -1,33 +1,35 @@
 //import Link from 'next/link';
 import ThemeToggle from '@/app/components/ThemeToggle'; // Import the new component
 import {Link} from "@/i18n/routing";
+import { getTranslations } from "next-intl/server";
 
-export default function Navbar() {
+export default async function Navbar() {
+const t = await getTranslations('Navbar');
   return (
     <nav className="bg-gray-800 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-xl font-bold">
-          Mi Portafolio
+          {t('portafolio')}
         </Link>
         <div className="flex space-x-4">
           <Link href="/academic-work" className="hover:text-gray-400">
-            Trabajos Académicos
+            {t('TrabajosAcademicos')}
           </Link>
           <Link href="/personal-info" className="hover:text-gray-400">
-            Información Personal
+            {t('InfoPersonal')}
           </Link>
           <Link href="/recommendations" className="hover:text-gray-400">
-            Recomendaciones
+            {t('Recomendaciones')}
           </Link>
           {/* Custom sections required by the project */}
           <Link href="/custom-1" className="hover:text-gray-400">
-            Sección 1
+            {t('sec1')}
           </Link>
           <Link href="/custom-2" className="hover:text-gray-400">
-            Sección 2
+            {t('sec2')}
           </Link>
           <Link href="/custom-3" className="hover:text-gray-400">
-            Sección 3
+            {t('sec3')}
           </Link>
           <ThemeToggle />
         </div>

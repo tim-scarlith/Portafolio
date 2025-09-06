@@ -8,5 +8,14 @@
     "proposito3": "IC8057 - Introducción al Desarrollo de Páginas Web",
     "proposito4": " Mi objetivo es mostrar mi progreso como desarrollador y compartir ",
     "proposito5": "mi crecimiento profesional y técnico. "
+  },
+  "Navbar":{
+    "portafolio": "Mi Portafolio",
+    "TrabajosAcademicos": "Trabajos Académicos",
+    "InfoPersonal": "Información Personal",
+    "Recomendaciones": "Recomendaciones",
+    "sec1":"sec 1",
+    "sec2":"sec 2",
+    "sec3":"sec 3"
   }
 }
