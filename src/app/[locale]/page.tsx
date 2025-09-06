@@ -1,4 +1,7 @@
-export default function Home() {
+import { getTranslations } from "next-intl/server";
+
+export default async function Home() {
+  const t = await getTranslations('Home');
   return (
     <main className="flex flex-col items-center justify-center min-h-screen px-6">
       {/* Contenedor */}
@@ -16,22 +19,21 @@ export default function Home() {
         </h1>
 
         <p className="text-lg leading-relaxed mb-6">
-          Soy estudiante de Ingeniería en Computación en el{" "}
-          <span className="font-semibold">Instituto Tecnológico de Costa Rica</span>. 
-          Me apasiona el desarrollo web y el aprendizaje de nuevas tecnologías.
+          {t('descripcion1')}          
+          <span className="font-semibold">{t('descripcion2')}</span>. 
+         {t('descripcion3')}          
         </p>
 
         {/* Propósito del portafolio */}
         <div className=" shadow-md rounded-2xl p-6 border">
           <h2 className="text-2xl font-semibold mb-3">
-            Propósito del Portafolio
+            {t('proposito1')} 
           </h2>
           <p >
-            Este portafolio recopila los proyectos, laboratorios y actividades
-            desarrollados durante el curso{" "}
-            <span className="font-medium">IC8057 - Introducción al Desarrollo de Páginas Web</span>.
-            Mi objetivo es mostrar mi progreso como desarrollador y compartir 
-            mi crecimiento profesional y técnico.
+            {t('proposito2')}
+            <span className="font-medium">{t('proposito3')}</span>.
+            {t('proposito4')} 
+            {t('proposito5')}
           </p>
         </div>
       </section>

@@ -1,5 +1,7 @@
-import Link from 'next/link';
+//import Link from 'next/link';
 import ThemeToggle from '@/app/components/ThemeToggle'; // Import the new component
+import {Link} from "@/i18n/routing";
+
 export default function Navbar() {
   return (
     <nav className="bg-gray-800 text-white p-4">
