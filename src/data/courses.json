@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "code": "IC8057",
+    "name": "Introducción al Desarrollo de Páginas Web",
+    "semester": "I Semestre 2025",
+    "description": "Curso introductorio para el desarrollo de páginas web, cubriendo diseño, desarrollo y despliegue de sitios web.",
+    "works": [
+      {
+        "name": "Laboratorio 1",
+        "type": "Laboratorio",
+        "objective": "Desarrollar una página web estática utilizando HTML y CSS.",
+        "date": "10/02/2025",
+        "technologies": ["HTML", "CSS"],
+        "repoLink": "https://github.com/yourusername/ic8057-lab1",
+        "deployLink": "https://your-site.netlify.app/lab1"
+      },
+      {
+        "name": "Proyecto Portafolio",
+        "type": "Proyecto",
+        "objective": "Diseñar y desarrollar un portafolio web personal.",
+        "date": "15/06/2025",
+        "technologies": ["Next.js", "Tailwind CSS", "next-intl"],
+        "repoLink": "https://github.com/yourusername/portafolio-web",
+        "deployLink": "https://your-site.netlify.app"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "code": "IC9050",
+    "name": "Estructuras de Datos",
+    "semester": "II Semestre 2024",
+    "description": "Estudio de las principales estructuras de datos y su implementación en programación.",
+    "works": [
+      {
+        "name": "Tarea 1",
+        "type": "Tarea",
+        "objective": "Implementación de una lista enlazada.",
+        "date": "20/09/2024",
+        "technologies": ["Python"],
+        "repoLink": "https://github.com/yourusername/ic9050-tarea1"
+      }
+    ]
+  }
+]
