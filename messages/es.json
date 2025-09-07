@@ -17,5 +17,19 @@
     "sec1":"sec 1",
     "sec2":"sec 2",
     "sec3":"sec 3"
-  }
+  },
+  "CourseCard":{
+    "Trabajos":"Trabajos Asociados",
+    "Tipo":"Tipo: ",
+    "Descrip":"Descripción: ",
+    "Fecha":"Fecha: ",
+    "Repo":"Repositorio ",
+    "WebSite":"Sitio Desplegado "
+  },
+  "CourseFilters":{
+    "Eval":"Tipo de Evaluación ",
+    "Tech":"Tecnologías ",
+    "FechaEntr":"Fecha de Entrega ",
+    "Desde": "Desde ",
+    "Hasta":"Hasta "}
 }

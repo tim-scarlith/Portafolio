@@ -1,5 +1,6 @@
 'use client';
-
+import {Link} from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 import { useState } from 'react';
 
 // Interfaces for component props
@@ -19,6 +20,7 @@ export default function CourseFilters({
   allEvaluationTypes,
   allTechnologies,
 }: CourseFiltersProps) {
+  const t = useTranslations('CourseFilters');
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
   const [selectedTechs, setSelectedTechs] = useState<string[]>([]);
   const [fromDate, setFromDate] = useState<string>('');
@@ -71,7 +73,7 @@ export default function CourseFilters({
   return (
     <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md mb-8">
       <div className="mb-4">
-        <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Tipo de Evaluación</h3>
+        <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">{t('Eval')}</h3>
         <div className="flex flex-wrap gap-2">
           {allEvaluationTypes.map((type, index) => (
             <button
@@ -89,7 +91,7 @@ export default function CourseFilters({
         </div>
       </div>
       <div className="mb-4">
-        <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Tecnologías</h3>
+        <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">{t('Tech')}</h3>
         <div className="flex flex-wrap gap-2">
           {allTechnologies.map((tech, index) => (
             <button
@@ -107,9 +109,9 @@ export default function CourseFilters({
         </div>
       </div>
       <div>
-        <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">Fecha de Entrega</h3>
+        <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">{t('FechaEntr')}</h3>
         <div className="flex flex-col sm:flex-row gap-4">
-          <p>Desde</p>
+          <p>{t('Desde')}</p>
           <input
             type="date"
             name="fromDate"
@@ -118,7 +120,7 @@ export default function CourseFilters({
             className="w-full sm:w-1/2 p-2 rounded-md bg-white dark:bg-gray-700 text-gray-900 dark:text-white border border-gray-300 dark:border-gray-600"
             
           />
-          <p>Hasta</p>
+          <p>{t('Hasta')}</p>
           <input
             type="date"
             name="toDate"

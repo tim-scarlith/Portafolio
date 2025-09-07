@@ -17,6 +17,21 @@
     "sec1":"sec 1en",
     "sec2":"sec 2en",
     "sec3":"sec 3en"
+  },
+  "CourseCard": {
+  "Trabajos": "Associated Work ",
+  "Tipo": "Type: ",
+  "Descrip": "Description: ",
+  "Fecha": "Date: ",
+  "Repo": "Repository ",
+  "WebSite": "Deployed Site "
+  },
+  "CourseFilters": {
+    "Eval": "Evaluation Type ",
+    "Tech": "Technologies ",
+    "FechaEntr": "Delivery Date ",
+    "Desde": "From ",
+    "Hasta": "To "
   }
 
 }

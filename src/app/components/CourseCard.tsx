@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useTranslations } from "next-intl";
 
 interface Work {
   name: string;
@@ -24,6 +25,7 @@ interface CourseCardProps {
 }
 
 export default function CourseCard({ course }: CourseCardProps) {
+  const t = useTranslations('CourseCard');
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 mb-8 border border-gray-200 dark:border-gray-700">
       <h2 className="text-2xl font-bold text-gray-900 dark:text-white">
@@ -38,7 +40,7 @@ export default function CourseCard({ course }: CourseCardProps) {
 
       <div className="mt-6">
         <h3 className="text-xl font-semibold text-gray-800 dark:text-white">
-          Trabajos Asociados
+          {t('Trabajos')}
         </h3>
         <ul className="mt-4 space-y-4">
           {course.works.map((work, index) => (
@@ -47,13 +49,13 @@ export default function CourseCard({ course }: CourseCardProps) {
                 {work.name}
               </h4>
               <p className="text-sm text-gray-600 dark:text-gray-400">
-                Tipo: {work.type}
+                {t('Tipo')} {work.type}
               </p>
               <p className="mt-1 text-gray-700 dark:text-gray-300">
-                Descripción: {work.objective}
+                {t('Descrip')} {work.objective}
               </p>
               <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                Fecha: {work.date}
+                {t('Fecha')} {work.date}
               </p>
               <div className="mt-2 flex flex-wrap gap-2">
                 {work.technologies.map((tech, techIndex) => (
@@ -68,12 +70,12 @@ export default function CourseCard({ course }: CourseCardProps) {
               <div className="mt-2 flex space-x-4">
                 {work.repoLink && (
                   <Link href={work.repoLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-                    Repositorio
+                    {t('Repo')}
                   </Link>
                 )}
                 {work.deployLink && (
                   <Link href={work.deployLink} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
-                    Sitio Desplegado
+                    {t('WebSite')}
                   </Link>
                 )}
               </div>
