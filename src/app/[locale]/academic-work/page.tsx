@@ -4,7 +4,7 @@ import { useState } from 'react';
 import CourseCard from "@/app/components/CourseCard";
 import CourseFilters from "@/app/components/CourseFilters";
 import coursesData from "@/data/courses.json";
-
+import { useTranslations } from "next-intl";
 // Extract all unique evaluation types and technologies from the data
 const allEvaluationTypes = Array.from(new Set(
   coursesData.flatMap(course => course.works.map(work => work.type))
@@ -14,6 +14,7 @@ const allTechnologies = Array.from(new Set(
 ));
 
 export default function AcademicWorkPage() {
+  const t = useTranslations('AcademicWorkPage');
   const [filters, setFilters] = useState<{
     type: string[];
     tech: string[];
@@ -57,7 +58,7 @@ export default function AcademicWorkPage() {
   return (
     <main className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white">
-        Trabajos Académicos por Curso
+        {t('AcaWorksXcurso')}
       </h1>
       <CourseFilters
         onFilterChange={handleFilterChange}
@@ -70,7 +71,7 @@ export default function AcademicWorkPage() {
         ))}
         {filteredCourses.length === 0 && (
           <p className="text-center text-gray-500 dark:text-gray-400">
-            No se encontraron trabajos que coincidan con los filtros seleccionados.
+            {t('FalloFiltro')}
           </p>
         )}
       </section>

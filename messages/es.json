@@ -31,5 +31,10 @@
     "Tech":"Tecnologías ",
     "FechaEntr":"Fecha de Entrega ",
     "Desde": "Desde ",
-    "Hasta":"Hasta "}
+    "Hasta":"Hasta "
+  },
+  "AcademicWorkPage":{
+    "AcaWorksXcurso":"Trabajos Académicos por Curso",
+    "FalloFiltro":"No se encontraron trabajos que coincidan con los filtros seleccionados."
+    }
 }

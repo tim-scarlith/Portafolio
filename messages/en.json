@@ -32,6 +32,11 @@
     "FechaEntr": "Delivery Date ",
     "Desde": "From ",
     "Hasta": "To "
-  }
+  },
+  "AcademicWorkPage": {
+  "AcaWorksXcurso": "Academic Work by Course",
+  "FalloFiltro": "No work found matching the selected filters."
+}
+
 
 }
