@@ -31,3 +31,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* New CSS class to fix the html2canvas color issue */
+.dark-mode-fix {
+    --tw-bg-gray-800: #1f2937 !important;
+    --tw-text-white: #fffffe !important;
+    background-color: var(--color-bg) !important;
+    color: var(--color-text) !important;
+    border-color: var(--color-border) !important;
+}

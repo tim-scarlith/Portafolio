@@ -36,5 +36,29 @@
   "AcademicWorkPage":{
     "AcaWorksXcurso":"Trabajos Académicos por Curso",
     "FalloFiltro":"No se encontraron trabajos que coincidan con los filtros seleccionados."
-    }
+    },
+    "PersonalInfo": {
+      "Titulo": "Información Personal y Profesional",
+      "DescargaPDF": "Descargar CV en PDF",
+      "Cargando": "Generando...",
+      "FotoPerfil": "Foto de perfil de Tim Scarlith",
+      "PersonBiblio": "Biografía Profesional",
+      "Bibliografia1": "Mi nombre es Tim Scarlith, soy estudiante avanzado de la carrera de ingeniería en computación del TEC, disfruto la interacción y los retos. Me interesa trabajar con diversas tecnologías, especialmente en el área de administración de información, aunque estoy abierto a aprender nuevas tecnologías.",
+      "Bibliografia2": "Instituto Tecnológico de Costa Rica",
+      "Bibliografia3": "Me apasiona el desarrollo web y el aprendizaje de nuevas tecnologías.",
+      "habilidades": "Habilidades Técnicas",
+      "habilida1": "Lenguajes de Programación",
+      "habilida2": "Frameworks & Librerías",
+      "habilida3": "Bases de Datos",
+      "Herramientas": "Herramientas & Otros",
+      "CertificacionesTitulo": "Certificaciones",
+      "Certificaciones": "Certificaciones: Cursos, talleres o certificaciones obtenidas, con enlaces o evidencias si están disponibles.",
+      "1LinkCertific": "Ejemplo de Certificación 1",
+      "2LinkCertific": "Ejemplo de Certificación 2",
+      "Resdes": "Redes Profesionales",
+      "additionInfoTitulo": "Información Adicional Relevante",
+      "Info1": "Logro destacado: Ganador de un hackathon regional.",
+      "Info2": "Intereses técnicos: Inteligencia Artificial, Ciberseguridad.",
+      "Info3": "Participación en comunidades: Miembro activo del club de robótica del TEC."
+  }
 }

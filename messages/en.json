@@ -36,7 +36,32 @@
   "AcademicWorkPage": {
   "AcaWorksXcurso": "Academic Work by Course",
   "FalloFiltro": "No work found matching the selected filters."
+},
+"PersonalInfo": {
+  "Titulo": "Personal and Professional Information",
+  "DescargaPDF": "Download CV in PDF",
+  "Cargando": "Generating...",
+  "FotoPerfil": "Profile picture of Tim Scarlith",
+  "PersonBiblio": "Professional Biography",
+  "Bibliografia1": "My name is Tim Scarlith, I am an advanced student in Computer Engineering at TEC. I enjoy interaction and challenges. I am interested in working with diverse technologies, especially in the area of information management, although I am open to learning new technologies.",
+  "Bibliografia2": "Costa Rica Institute of Technology",
+  "Bibliografia3": "I am passionate about web development and learning new technologies.",
+  "habilidades": "Technical Skills",
+  "habilida1": "Programming Languages",
+  "habilida2": "Frameworks & Libraries",
+  "habilida3": "Databases",
+  "Herramientas": "Tools & Others",
+  "CertificacionesTitulo": "Certifications",
+  "Certificaciones": "Certifications: Courses, workshops, or obtained certifications, with links or evidence if available.",
+  "1LinkCertific": "Example Certification 1",
+  "2LinkCertific": "Example Certification 2",
+  "Resdes": "Professional Networks",
+  "additionInfoTitulo": "Relevant Additional Information",
+  "Info1": "Notable achievement: Winner of a regional hackathon.",
+  "Info2": "Technical interests: Artificial Intelligence, Cybersecurity.",
+  "Info3": "Community involvement: Active member of the TEC robotics club."
 }
+
 
 
 }

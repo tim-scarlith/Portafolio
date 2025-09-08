@@ -38,7 +38,7 @@
         "type": "Tarea",
         "objective": "Implementación de una lista enlazada.",
         "date": "20/09/2024",
-        "technologies": ["Python"],
+        "technologies": ["Python","Next.js"],
         "repoLink": "https://github.com/yourusername/ic9050-tarea1"
       }
     ]

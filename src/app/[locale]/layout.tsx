@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/app/components/Navbar"; // Import the new Navbar component
-
+import ProfileSchema from "@/app/components/ProfileSchema";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -35,7 +35,8 @@ export default async function RootLayout({
     <html lang="es">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NextIntlClientProvider messages={messages}>
-        <Navbar /> {/* Use the Navbar component here */}
+        <ProfileSchema /> {/* Componente nav esquema */}
+        <Navbar /> {/* Componente nav bar */}
         <main>          
           {children}
         </main>

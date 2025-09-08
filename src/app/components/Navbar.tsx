@@ -15,7 +15,7 @@ const t = await getTranslations('Navbar');
           <Link href="/academic-work" className="hover:text-gray-400">
             {t('TrabajosAcademicos')}
           </Link>
-          <Link href="/chatAndComments" className="hover:text-gray-400">
+          <Link href="/personal-info" className="hover:text-gray-400">
             {t('InfoPersonal')}
           </Link>
           <Link href="/recommendations" className="hover:text-gray-400">
