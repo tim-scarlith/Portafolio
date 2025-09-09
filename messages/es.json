@@ -60,5 +60,10 @@
       "Info1": "Logro destacado: Ganador de un hackathon regional.",
       "Info2": "Intereses técnicos: Inteligencia Artificial, Ciberseguridad.",
       "Info3": "Participación en comunidades: Miembro activo del club de robótica del TEC."
+  },
+    "Comments": {
+    "titulo": "Deja una Recomendación",
+    "descripcion": "¡Me encantaría conocer tu opinión! Por favor, deja un comentario o recomendación sobre mi portafolio en GitHub.",
+    "buttonText": "Dejar comentario"
   }
 }

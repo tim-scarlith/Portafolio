@@ -19,7 +19,7 @@ const t = await getTranslations('Navbar');
           <Link href="/personal-info" className="hover:text-gray-400">
             {t('InfoPersonal')}
           </Link>
-          <Link href="/recommendations" className="hover:text-gray-400">
+          <Link href="/comments" className="hover:text-gray-400">
             {t('Recomendaciones')}
           </Link>
           {/* Custom sections required by the project */}

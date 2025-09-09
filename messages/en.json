@@ -60,7 +60,12 @@
   "Info1": "Notable achievement: Winner of a regional hackathon.",
   "Info2": "Technical interests: Artificial Intelligence, Cybersecurity.",
   "Info3": "Community involvement: Active member of the TEC robotics club."
-}
+},
+  "Comments": {
+    "titulo": "Leave a Recommendation",
+    "descripcion": "I would love to hear your feedback! Please leave a comment or recommendation about my portfolio on GitHub.",
+    "buttonText": "Post a comment"
+  }
 
 
 
