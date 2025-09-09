@@ -2,6 +2,7 @@
 import ThemeToggle from '@/app/components/ThemeToggle'; // Import the new component
 import {Link} from "@/i18n/routing";
 import { getTranslations } from "next-intl/server";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 export default async function Navbar() {
 const t = await getTranslations('Navbar');
@@ -32,6 +33,7 @@ const t = await getTranslations('Navbar');
             {t('sec3')}
           </Link>
           <ThemeToggle />
+          <LocaleSwitcher />
         </div>
       </div>
     </nav>
