@@ -23,8 +23,8 @@ const t = await getTranslations('Navbar');
             {t('Recomendaciones')}
           </Link>
           {/* Custom sections required by the project */}
-          <Link href="/custom-1" className="hover:text-gray-400">
-            {t('sec1')}
+          <Link href="/hobbies" className="hover:text-gray-400">
+            {t('Hobbies')}
           </Link>
           <Link href="/custom-2" className="hover:text-gray-400">
             {t('sec2')}

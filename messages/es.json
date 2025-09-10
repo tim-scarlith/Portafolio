@@ -14,7 +14,7 @@
     "TrabajosAcademicos": "Trabajos Académicos",
     "InfoPersonal": "Información Personal",
     "Recomendaciones": "Recomendaciones",
-    "sec1":"sec 1",
+    "Hobbies":"Hobbies",
     "sec2":"sec 2",
     "sec3":"sec 3"
   },
@@ -68,5 +68,17 @@
     "submitButton": "Publicar comentario",
     "commentsTitle": "Comentarios de otros",
     "noComments": "Aún no hay comentarios. ¡Sé el primero en dejar uno!"
-  }
+  },
+  "Hobbies": {
+  "title": "Mis Hobbies",
+  "description": "Una mirada a mis pasiones fuera del código."
+},
+"Hobby": {
+  "title": "Mi Pasión por el {hobbyTitle}",
+  "description": {
+    "cine": "Me sumerjo en el séptimo arte para analizar historias, direcciones y guiones que definen la cultura moderna...",
+    "videojuegos": "Exploro el diseño de mundos, la narrativa interactiva y la estrategia detrás de mis títulos de videojuegos favoritos...",
+    "anime": "Me fascina el arte del anime, la profundidad de sus personajes y la diversidad de géneros que ofrece...",
+    "tcg": "Adentrándome en el mundo de los TCG, disfruto de la estrategia, la colección de cartas y la comunidad que se forma alrededor del juego..."
+  }}
 }

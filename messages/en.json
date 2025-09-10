@@ -14,7 +14,7 @@
     "TrabajosAcademicos": "Academic Work",
     "InfoPersonal": "Personal Information",
     "Recomendaciones": "Recommendations",
-    "sec1":"sec 1en",
+    "Hobbies":"Hobbies",
     "sec2":"sec 2en",
     "sec3":"sec 3en"
   },
@@ -68,7 +68,19 @@
     "submitButton": "Post Comment",
     "commentsTitle": "Comments from others",
     "noComments": "No comments yet. Be the first to leave one!"
-  }
+  },
+  "Hobbies": {
+  "title": "My Hobbies",
+  "description": "A look at my passions outside of code."
+},
+"Hobby": {
+  "title": "My Passion for {hobbyTitle}",
+  "description": {
+    "cine": "I dive into the seventh art to analyze the stories, direction, and scripts that define modern culture...",
+    "videojuegos": "I explore world design, interactive storytelling, and the strategy behind my favorite video game titles...",
+    "anime": "I'm fascinated by the art of anime, the depth of its characters, and the diversity of genres it offers...",
+    "tcg": "Delving into the world of TCGs, I enjoy the strategy, card collecting, and the community that forms around the game..."
+  }}
 
 
 

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cine",
+    "title": "Cine",
+    "image": "/EsCine.jpg",
+    "description": "Explora mi pasión por el cine, diferentes obras del cine contemporaneo."
+  },
+  {
+    "id": "videojuegos",
+    "title": "Videojuegos",
+    "image": "/vdg.jpg",
+    "description": "Sumérgete en el mundo de los videojuegos. Aquí comparto mis experiencias con títulos de de la industria."
+  },
+  {
+    "id": "anime",
+    "title": "Anime",
+    "image": "/anime.webp",
+    "description": "Un recorrido por el vasto universo del anime. Conoce mis series y películas favoritas, recomendaciones y un vistazo a la cultura de la animación."
+  },
+  {
+    "id": "tcg",
+    "title": "TCG",
+    "image": "/tcgs.jpg",
+    "description": "Descubre mi fascinación por los Trading Card Games. Hablo de estrategias, mazos y las comunidades detrás de juegos como Magic: The Gathering y Pokémon TCG."
+  }
+]
