@@ -1,5 +1,5 @@
 import { getTranslations } from "next-intl/server";
-
+import Image from "next/image";
 export default async function Home() {
   const t = await getTranslations('Home');
   return (
@@ -7,10 +7,13 @@ export default async function Home() {
       {/* Contenedor */}
       <section className="max-w-3xl text-center">
         {/* Foto (opcional) */}
-        <img
+        <Image
           src="/Tim.jpg"
           alt="Foto del estudiante"
-          className="w-70 h-70 rounded-full mx-auto shadow-lg mb-6"
+          //className="w-70 h-70 rounded-full mx-auto shadow-lg mb-6"
+            width={280}   // 70 * 4 = 280px (porque Tailwind w-70 ≈ 17.5rem = 280px)
+            height={280}
+            className="w-70 h-70 rounded-full mx-auto shadow-lg mb-6"
         /> 
 
         {/* Introducción */}
