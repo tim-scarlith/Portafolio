@@ -61,9 +61,12 @@
       "Info2": "Intereses técnicos: Inteligencia Artificial, Ciberseguridad.",
       "Info3": "Participación en comunidades: Miembro activo del club de robótica del TEC."
   },
-    "Comments": {
-    "titulo": "Deja una Recomendación",
-    "descripcion": "¡Me encantaría conocer tu opinión! Por favor, deja un comentario o recomendación sobre mi portafolio en GitHub.",
-    "buttonText": "Dejar comentario"
+  "Comments": {
+    "title": "Comentarios y Recomendaciones",
+    "addCommentTitle": "Deja un comentario",
+    "placeholder": "Escribe tu recomendación o comentario aquí...",
+    "submitButton": "Publicar comentario",
+    "commentsTitle": "Comentarios de otros",
+    "noComments": "Aún no hay comentarios. ¡Sé el primero en dejar uno!"
   }
 }

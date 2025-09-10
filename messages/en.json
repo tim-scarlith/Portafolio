@@ -62,10 +62,14 @@
   "Info3": "Community involvement: Active member of the TEC robotics club."
 },
   "Comments": {
-    "titulo": "Leave a Recommendation",
-    "descripcion": "I would love to hear your feedback! Please leave a comment or recommendation about my portfolio on GitHub.",
-    "buttonText": "Post a comment"
+    "title": "Comments and Recommendations",
+    "addCommentTitle": "Leave a comment",
+    "placeholder": "Write your recommendation or comment here...",
+    "submitButton": "Post Comment",
+    "commentsTitle": "Comments from others",
+    "noComments": "No comments yet. Be the first to leave one!"
   }
+
 
 
 
