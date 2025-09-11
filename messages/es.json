@@ -80,5 +80,27 @@
     "videojuegos": "Exploro el diseño de mundos, la narrativa interactiva y la estrategia detrás de mis títulos de videojuegos favoritos...",
     "anime": "Me fascina el arte del anime, la profundidad de sus personajes y la diversidad de géneros que ofrece...",
     "tcg": "Adentrándome en el mundo de los TCG, disfruto de la estrategia, la colección de cartas y la comunidad que se forma alrededor del juego..."
-  }}
+  }},
+  "AnimeSection": {
+  "titleDandadan": "Dandadan",
+  "descriptionDandadan": "Dandadan es uno de mis animes favoritos por su mezcla única de acción sobrenatural, comedia y romance. La historia de Momo y Okarun, mientras se enfrentan a fantasmas y extraterrestres, es emocionante y ridículamente divertida.",
+  "altDandadan": "Dandadan Anime",
+  "titleJujutsuKaisen": "Jujutsu Kaisen",
+  "descriptionJujutsuKaisen": "Jujutsu Kaisen se ha convertido en uno de mis preferidos por su animación de alta calidad, sus intensas batallas y un sistema de poder fascinante. La profundidad de los personajes y la tensión constante en la trama lo hacen muy adictivo.",
+  "altJujutsuKaisen": "Jujutsu Kaisen Anime",
+  "titleOnePunchMan": "One-Punch Man",
+  "descriptionOnePunchMan": "One-Punch Man me encanta por su premisa cómica y su protagonista absurdamente poderoso, Saitama. La serie parodia los tropos del género de superhéroes mientras ofrece peleas visualmente impresionantes. Es un anime perfecto para reír y sorprenderse.",
+  "altOnePunchMan": "One-Punch Man Anime"
+  },
+  "MovieSection": {
+  "titleRevenant": "The Revenant",
+  "descriptionRevenant": "El Renacido es una obra maestra visual que me fascina por su cruda representación de la supervivencia. La dirección de Iñárritu y la inolvidable actuación de Leonardo DiCaprio hacen de esta película una experiencia cinematográfica intensa y memorable.",
+  "altRevenant": "Póster de The Revenant",
+  "titleDjango": "Django Unchained",
+  "descriptionDjango": "Soy un gran admirador del estilo de Quentin Tarantino, y Django Desencadenado es una de mis favoritas. La película combina diálogos ingeniosos, una narrativa audaz y una banda sonora impecable para crear un western con un toque único y lleno de acción.",
+  "altDjango": "Póster de Django Unchained",
+  "titleIrishman": "The Irishman",
+  "descriptionIrishman": "El Irlandés es una obra maestra de Martin Scorsese. Me atrae su narrativa épica, que se extiende a lo largo de décadas. La actuación del elenco, en particular la de Robert De Niro y Al Pacino, es sublime y ofrece una reflexión profunda sobre la vejez y la lealtad en el mundo criminal.",
+  "altIrishman": "Póster de The Irishman"
+  }
 }

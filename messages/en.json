@@ -80,7 +80,29 @@
     "videojuegos": "I explore world design, interactive storytelling, and the strategy behind my favorite video game titles...",
     "anime": "I'm fascinated by the art of anime, the depth of its characters, and the diversity of genres it offers...",
     "tcg": "Delving into the world of TCGs, I enjoy the strategy, card collecting, and the community that forms around the game..."
-  }}
+  }},
+  "AnimeSection": {
+  "titleDandadan": "Dandadan",
+  "descriptionDandadan": "Dandadan is one of my favorite anime because of its unique mix of supernatural action, comedy, and romance. The story of Momo and Okarun as they face ghosts and aliens is exciting and ridiculously fun.",
+  "altDandadan": "Dandadan Anime",
+  "titleJujutsuKaisen": "Jujutsu Kaisen",
+  "descriptionJujutsuKaisen": "Jujutsu Kaisen has become one of my favorites for its high-quality animation, intense battles, and a fascinating power system. The depth of the characters and the constant tension in the plot make it highly addictive.",
+  "altJujutsuKaisen": "Jujutsu Kaisen Anime",
+  "titleOnePunchMan": "One-Punch Man",
+  "descriptionOnePunchMan": "I love One-Punch Man for its comedic premise and its absurdly powerful protagonist, Saitama. The series parodies superhero genre tropes while offering visually stunning fights. It's the perfect anime to laugh and be amazed.",
+  "altOnePunchMan": "One-Punch Man Anime"
+  },
+  "MovieSection": {
+  "titleRevenant": "The Revenant",
+  "descriptionRevenant": "The Revenant is a visual masterpiece that fascinates me with its raw depiction of survival. Iñárritu's direction and Leonardo DiCaprio's unforgettable performance make this film an intense and memorable cinematic experience.",
+  "altRevenant": "The Revenant Movie Poster",
+  "titleDjango": "Django Unchained",
+  "descriptionDjango": "I'm a huge admirer of Quentin Tarantino's style, and Django Unchained is one of my favorites. The film combines witty dialogue, a bold narrative, and an impeccable soundtrack to create a unique and action-packed western.",
+  "altDjango": "Django Unchained Movie Poster",
+  "titleIrishman": "The Irishman",
+  "descriptionIrishman": "The Irishman is a masterpiece by Martin Scorsese. I'm drawn to its epic narrative, which spans decades. The cast's performance, particularly Robert De Niro and Al Pacino, is sublime and offers a deep reflection on aging and loyalty in the criminal world.",
+  "altIrishman": "The Irishman Movie Poster"
+  }
 
 
 
