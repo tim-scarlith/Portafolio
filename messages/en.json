@@ -102,7 +102,29 @@
   "titleIrishman": "The Irishman",
   "descriptionIrishman": "The Irishman is a masterpiece by Martin Scorsese. I'm drawn to its epic narrative, which spans decades. The cast's performance, particularly Robert De Niro and Al Pacino, is sublime and offers a deep reflection on aging and loyalty in the criminal world.",
   "altIrishman": "The Irishman Movie Poster"
-  }
+  },
+    "VideoGameSection": {
+    "titleDarkSouls": "Dark Souls 1",
+    "descriptionDarkSouls": "Dark Souls is a game that has left a mark on me with its interconnected level design and its challenging but fair gameplay. Its cryptic narrative and desolate atmosphere create a unique and rewarding experience that makes you feel every victory.",
+    "altDarkSouls": "Dark Souls 1 Poster",
+    "titleSOTC": "Shadow of the Colossus",
+    "descriptionSOTC": "Shadow of the Colossus is a work of art. Its minimalist narrative and the epic scale of each battle against the colossi are incredible to me. The sense of solitude and the beauty of its world have captivated me deeply.",
+    "altSOTC": "Shadow of the Colossus Poster",
+    "titleMarvelRivals": "Marvel Rivals",
+    "descriptionMarvelRivals": "Marvel Rivals attracts me with its frantic action and the ability to play with my favorite Marvel heroes. The combination of skills and team cooperation in a shooter game makes every match exciting and dynamic.",
+    "altMarvelRivals": "Marvel Rivals Poster"
+  },
+  "TCGSection": {
+  "titleMTG": "Magic: The Gathering",
+  "descriptionMTG": "Magic: The Gathering is my favorite trading card game for its deep strategy and the constant evolution of its formats. I love building decks and competing in different tournaments.",
+  "altMTG": "Magic: The Gathering Poster",
+  "titlePokemon": "Pokémon TCG",
+  "descriptionPokemon": "The Pokémon TCG appeals to me for its accessibility and incredible artwork. It's a game I enjoy both for its mechanics and for the nostalgia of collecting my favorite Pokémon.",
+  "altPokemon": "Pokémon TCG Poster",
+  "titleYugioh": "Yu-Gi-Oh!",
+  "descriptionYugioh": "Yu-Gi-Oh! holds a special place for me due to its fast pace and the number of combos you can pull off. The complexity of its plays and the meta-game always keep me interested and looking for new ways to improve my strategies.",
+  "altYugioh": "Yu-Gi-Oh! Poster"
+}
 
 
 

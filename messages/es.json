@@ -102,5 +102,27 @@
   "titleIrishman": "The Irishman",
   "descriptionIrishman": "El Irlandés es una obra maestra de Martin Scorsese. Me atrae su narrativa épica, que se extiende a lo largo de décadas. La actuación del elenco, en particular la de Robert De Niro y Al Pacino, es sublime y ofrece una reflexión profunda sobre la vejez y la lealtad en el mundo criminal.",
   "altIrishman": "Póster de The Irishman"
-  }
+  },
+    "VideoGameSection": {
+    "titleDarkSouls": "Dark Souls 1",
+    "descriptionDarkSouls": "Dark Souls es un juego que me ha marcado por su diseño de niveles interconectados y su desafiante pero justa jugabilidad. Su narrativa críptica y la atmósfera desoladora crean una experiencia única y gratificante que te hace sentir cada victoria.",
+    "altDarkSouls": "Póster de Dark Souls 1",
+    "titleSOTC": "Shadow of the Colossus",
+    "descriptionSOTC": "Shadow of the Colossus es una obra de arte. Su minimalismo en la narrativa y la épica de cada batalla contra los colosos me parece increíble. La sensación de soledad y la belleza de su mundo me han cautivado profundamente.",
+    "altSOTC": "Póster de Shadow of the Colossus",
+    "titleMarvelRivals": "Marvel Rivals",
+    "descriptionMarvelRivals": "Marvel Rivals me atrae por su acción frenética y la posibilidad de jugar con mis héroes favoritos de Marvel. La combinación de habilidades y la cooperación en equipo en un juego de disparos hacen que cada partida sea emocionante y dinámica.",
+    "altMarvelRivals": "Póster de Marvel Rivals"
+  },
+  "TCGSection": {
+  "titleMTG": "Magic: The Gathering",
+  "descriptionMTG": "Magic: The Gathering es el juego de cartas coleccionables que más me gusta por su profunda estrategia y la constante evolución de sus formatos. Me encanta construir mazos y competir en los distintos torneos.",
+  "altMTG": "Póster de Magic: The Gathering",
+  "titlePokemon": "Pokémon TCG",
+  "descriptionPokemon": "El Pokémon TCG me atrae por su accesibilidad y sus increíbles ilustraciones. Es un juego que disfruto tanto por su mecánica como por la nostalgia que me genera coleccionar mis Pokémon favoritos.",
+  "altPokemon": "Póster de Pokémon TCG",
+  "titleYugioh": "Yu-Gi-Oh!",
+  "descriptionYugioh": "Yu-Gi-Oh! tiene un lugar especial para mí debido a su ritmo rápido y la cantidad de combos que se pueden realizar. La complejidad de sus jugadas y el meta-juego siempre me mantienen interesado y buscando nuevas formas de mejorar mis estrategias.",
+  "altYugioh": "Póster de Yu-Gi-Oh!"
+}
 }
