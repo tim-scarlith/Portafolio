@@ -1,6 +1,6 @@
 //import { getTranslations } from 'next-intl/server';
 import MovieSection from '@/app/components/MovieSection';
-
+import BackButton from '@/app/components/BackButton';
 export default async function CinePage() {
   return (
     <main className="container mx-auto p-4 md:p-8">
@@ -9,7 +9,7 @@ export default async function CinePage() {
       <p className="text-lg text-[var(--color-text)] mb-10">
       </p>
       <MovieSection />
-      
+      <BackButton/>
     </main>
   );
 }

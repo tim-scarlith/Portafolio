@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import AnimeSection from '@/app/components/AnimeSection';
-
+import BackButton from '@/app/components/BackButton';
 export default async function HobbiesPage() {
   const t = await getTranslations('Hobbies');
 
@@ -10,7 +10,7 @@ export default async function HobbiesPage() {
       <p className="text-lg text-[var(--color-text)] mb-10">{t('description')}</p>
       
       <AnimeSection />
-      
+      <BackButton />
     </main>
   );
 }

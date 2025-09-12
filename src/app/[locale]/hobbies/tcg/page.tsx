@@ -1,7 +1,7 @@
 //import { getTranslations } from 'next-intl/server';
 import TCGSection from '@/app/components/TCGSection';
 //const t = await getTranslations('TCGSection');
-
+import BackButton from '@/app/components/BackButton';
 
 export default async function TCGPage() {
   return (
@@ -11,7 +11,7 @@ export default async function TCGPage() {
       <p className="text-lg text-[var(--color-text)] mb-10">
       </p>
       <TCGSection/>
-      
+      <BackButton/>
     </main>
   );
 }

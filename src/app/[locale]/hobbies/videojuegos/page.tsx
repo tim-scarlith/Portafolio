@@ -2,7 +2,7 @@
 
 import { getTranslations } from 'next-intl/server';
 import VideoGameSection from '@/app/components/VideoGameSection';
-
+import BackButton from '@/app/components/BackButton';
 export default async function VideojuegosPage() {
   const t = await getTranslations('VideoGameSection');
 
@@ -12,8 +12,9 @@ export default async function VideojuegosPage() {
       </h1>
       <p className="text-lg text-[var(--color-text)] mb-10">
       </p>
-      <VideoGameSection/>
       
+      <VideoGameSection/>
+      <BackButton/>
     </main>
   );
 }

@@ -124,5 +124,8 @@
   "titleYugioh": "Yu-Gi-Oh!",
   "descriptionYugioh": "Yu-Gi-Oh! tiene un lugar especial para mí debido a su ritmo rápido y la cantidad de combos que se pueden realizar. La complejidad de sus jugadas y el meta-juego siempre me mantienen interesado y buscando nuevas formas de mejorar mis estrategias.",
   "altYugioh": "Póster de Yu-Gi-Oh!"
+},
+"BackButton": {
+  "backToHobbies": "Volver a Hobbies"
 }
 }
