@@ -15,7 +15,7 @@
     "InfoPersonal": "Personal Information",
     "Recomendaciones": "Recommendations",
     "Hobbies":"Hobbies",
-    "sec2":"sec 2en",
+    "Blog":"Blog",
     "sec3":"sec 3en"
   },
   "CourseCard": {
@@ -127,6 +127,15 @@
 },
 "BackButton": {
   "backToHobbies": "Back to Hobbies"
+},
+  "Blog": {
+    "title": "AI Blog",
+    "subtitle": "Here I share articles about artificial intelligence and its impact on learning."
+  },
+"BlogSection": {
+  "articleTitle": "Artificial Intelligence as a Learning Co-pilot",
+  "articleAuthor": "FLOW GPT",
+  "articleContent": "AI has ceased to be a futuristic technology to become an accessible tool for everyone, especially in the field of continuous learning. It's not about replacing the teacher or the student, but about complementing the process.\n\nLanguage models like GPT-4 can function as a personal 'co-pilot,' helping you understand complex concepts, generate summaries of long texts, or even create personalized study plans. If you're learning to code, AI can help you debug code, explain the logic behind an algorithm, or suggest best practices. For learning languages, it can simulate conversations, correct your grammar, and offer relevant vocabulary.\n\nThe key is knowing how to ask the right questions. Instead of asking for a direct answer, you can ask the AI to explain a topic 'as if you were 5 years old' or to 'create a visual analogy' to understand an abstract concept. This way, AI adapts to your learning style and strengthens your understanding. It's a powerful tool for democratizing knowledge and making learning a more interactive and personalized experience."
 }
 
 

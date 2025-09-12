@@ -26,8 +26,8 @@ const t = await getTranslations('Navbar');
           <Link href="/hobbies" className="hover:text-gray-400">
             {t('Hobbies')}
           </Link>
-          <Link href="/custom-2" className="hover:text-gray-400">
-            {t('sec2')}
+          <Link href="/blog" className="hover:text-gray-400">
+            {t('Blog')}
           </Link>
           <Link href="/custom-3" className="hover:text-gray-400">
             {t('sec3')}

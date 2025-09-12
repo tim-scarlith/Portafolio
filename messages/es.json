@@ -15,7 +15,7 @@
     "InfoPersonal": "Información Personal",
     "Recomendaciones": "Recomendaciones",
     "Hobbies":"Hobbies",
-    "sec2":"sec 2",
+    "Blog":"Blog",
     "sec3":"sec 3"
   },
   "CourseCard":{
@@ -127,5 +127,14 @@
 },
 "BackButton": {
   "backToHobbies": "Volver a Hobbies"
+},
+  "Blog": {
+    "title": "Blog de la IA",
+    "subtitle": "Aquí comparto artículos sobre inteligencia artificial y su impacto en el aprendizaje."
+  },
+"BlogSection": {
+  "articleTitle": "La Inteligencia Artificial como Co-piloto de Aprendizaje",
+  "articleAuthor": "FLOW GPT",
+  "articleContent": "La IA ha dejado de ser una tecnología futurista para convertirse en una herramienta accesible para todos, especialmente en el ámbito del aprendizaje continuo. No se trata de reemplazar al profesor o al estudiante, sino de complementar el proceso.\n\nLos modelos de lenguaje como GPT-4 pueden funcionar como un 'co-piloto' personal, ayudándote a entender conceptos complejos, generar resúmenes de textos extensos o incluso crear planes de estudio personalizados. Si estás aprendiendo a programar, la IA puede ayudarte a depurar código, explicar la lógica detrás de un algoritmo o sugerir mejores prácticas. Para aprender idiomas, puede simular conversaciones, corregir tu gramática y ofrecer vocabulario relevante.\n\nLa clave es saber cómo formular las preguntas correctas. En lugar de pedir una respuesta directa, puedes solicitar a la IA que te explique un tema 'como si tuvieras 5 años' o que 'cree un analogía visual' para entender un concepto abstracto. De esta forma, la IA se adapta a tu estilo de aprendizaje y fortalece tu comprensión. Es una herramienta poderosa para democratizar el conocimiento y hacer que el aprendizaje sea una experiencia más interactiva y personalizada."
 }
 }
