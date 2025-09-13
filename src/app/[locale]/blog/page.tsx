@@ -1,7 +1,7 @@
 
 import BlogSection from '@/app/components/BlogSection';
 import { useTranslations } from "next-intl";
-
+import BackButton from '@/app/components/backToLobbyButtom';
 
 export default function BlogPage() {
   const t =  useTranslations('Blog');
@@ -16,6 +16,7 @@ export default function BlogPage() {
       </p>
 
       <div className="space-y-12">
+        <BackButton/>
         <BlogSection/>
       </div>
     </main>

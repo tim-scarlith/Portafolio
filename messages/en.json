@@ -151,6 +151,9 @@
   "techCMS": "Headless CMS for content management.",
   "altDesktop": "Website design on desktop",
   "altMobile": "Website design on mobile"
+},
+"BackLobbyButton": {
+  "backToLobby": "Back"
 }
 
 

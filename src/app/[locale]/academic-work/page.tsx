@@ -5,6 +5,7 @@ import CourseCard from "@/app/components/CourseCard";
 import CourseFilters from "@/app/components/CourseFilters";
 import coursesData from "@/data/courses.json";
 import { useTranslations } from "next-intl";
+import BackButton from '@/app/components/backToLobbyButtom';
 // Extract all unique evaluation types and technologies from the data
 const allEvaluationTypes = Array.from(new Set(
   coursesData.flatMap(course => course.works.map(work => work.type))
@@ -57,6 +58,7 @@ export default function AcademicWorkPage() {
 
   return (
     <main className="container mx-auto px-4 py-8">
+      <BackButton/>
       <h1 className="text-3xl font-bold mb-8 text-center text-gray-900 dark:text-white">
         {t('AcaWorksXcurso')}
       </h1>

@@ -6,6 +6,7 @@ import jsPDF from 'jspdf';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import BackButton from '@/app/components/backToLobbyButtom';
 
 export default function PersonalInfoPage() {
   const t = useTranslations('PersonalInfo');
@@ -91,7 +92,7 @@ export default function PersonalInfoPage() {
           {isGenerating ? t('Cargando') : t('DescargaPDF')}
         </button>
       </div>
-
+      <BackButton/>
       <div ref={cvRef} className="bg-[var(--color-bg)] rounded-lg shadow-xl p-6 md:p-8 dark-mode-fix">
         {/* Biografía y Foto */}
         <section className="flex flex-col md:flex-row items-center md:items-start mb-8 border-b-2 border-[var(--color-border)] pb-8">

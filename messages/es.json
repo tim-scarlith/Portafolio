@@ -151,5 +151,8 @@
   "techCMS": "Headless CMS para la gestión de contenido.",
   "altDesktop": "Diseño de la página web en escritorio",
   "altMobile": "Diseño de la página web en móvil"
+},
+"BackLobbyButton": {
+  "backToLobby": "Volver"
 }
 }

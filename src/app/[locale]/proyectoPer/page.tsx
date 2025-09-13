@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import ProyectoCard from '@/app/components/ProyectoCard';
-
+import BackButton from '@/app/components/backToLobbyButtom';
 export default async function ProyectoPersonalPage() {
   const t = await getTranslations('ProyectoPer');
 
@@ -12,6 +12,7 @@ export default async function ProyectoPersonalPage() {
       <p className="text-lg text-[var(--color-text)] mb-10">
         {t('description')}
       </p>
+      <BackButton/>
       <ProyectoCard />
     </main>
   );
