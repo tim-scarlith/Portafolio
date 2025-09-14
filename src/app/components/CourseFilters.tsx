@@ -26,14 +26,14 @@ export default function CourseFilters({
   const [fromDate, setFromDate] = useState<string>('');
   const [toDate, setToDate] = useState<string>('');
 
-  const emitFilterChange = () => {
-    onFilterChange({
-      type: selectedTypes,
-      tech: selectedTechs,
-      fromDate: fromDate || undefined,
-      toDate: toDate || undefined,
-    });
-  };
+  // const emitFilterChange = () => {
+  //   onFilterChange({
+  //     type: selectedTypes,
+  //     tech: selectedTechs,
+  //     fromDate: fromDate || undefined,
+  //     toDate: toDate || undefined,
+  //   });
+  // };
 
   // Toggle filter selection for evaluation types
   const handleTypeChange = (type: string) => {
