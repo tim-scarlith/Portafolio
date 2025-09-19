@@ -6,7 +6,7 @@ export default function ProfileSchema() {
     "url": "https://your-portfolio-url.com", // Replace with your portfolio URL
     "image": "my-app/public/Tim.jpg", // Replace with your profile image URL
     "sameAs": [
-      "https://github.com/yourusername", // Replace with your GitHub URL
+      "https://github.com/tim-scarlith", // Replace with your GitHub URL
       "https://linkedin.com/in/yourprofile", // Replace with your LinkedIn URL
       // Add other social media or professional links here
     ],

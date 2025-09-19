@@ -31,7 +31,8 @@
     "Tech":"Tecnologías ",
     "FechaEntr":"Fecha de Entrega ",
     "Desde": "Desde ",
-    "Hasta":"Hasta "
+    "Hasta":"Hasta ",
+    "Course": "Curso"
   },
   "AcademicWorkPage":{
     "AcaWorksXcurso":"Trabajos Académicos por Curso",

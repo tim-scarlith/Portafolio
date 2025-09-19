@@ -9,20 +9,56 @@
       {
         "name": "Laboratorio 1",
         "type": "Laboratorio",
-        "objective": "Desarrollar una página web estática utilizando HTML y CSS.",
-        "date": "10/02/2025",
-        "technologies": ["HTML", "CSS"],
+        "objective": "Laboratorio que invita al estudiante a investigar categorías clave del ecosistema web actual, comprendiendo su función dentro de un flujo de desarrollo profesional.",
+        "date": "10/08/2025",
+        "technologies": ["Markdown"],
         "repoLink": "https://github.com/yourusername/ic8057-lab1",
-        "deployLink": "https://68b94affb21d6d000884be94--laboratorio02.netlify.app/"
+        "deployLink": "https://extraordinary-syrniki-0bd581.netlify.app/"
+      },
+      {
+        "name": "Laboratorio 2",
+        "type": "Laboratorio",
+        "objective": "Investigar y documentar el funcionamiento de herramientas modernas utilizadas en el desarrollo web profesional.",
+        "date": "16/08/2025",
+        "technologies": ["HTML", "CSS"],
+        "repoLink": "https://github.com/tim-scarlith/lab-02.git",
+        "deployLink": "https://lab03tim.netlify.app/"
+      },
+      {
+        "name": "Laboratorio 3",
+        "type": "Laboratorio",
+        "objective": "Aplicar técnicas avanzadas de CSS3 —incluyendo selectores de tipo, clase, id, atributos, combinadores, pseudo-clases, así como el modelo de caja y el posicionamiento— con el fin de desarrollar páginas web con mayor precisión, consistencia visual y control sobre la presentación de los elementos.",
+        "date": "25/08/2025",
+        "technologies": ["HTML", "CSS"],
+        "repoLink": "https://github.com/tim-scarlith/lab-02/pull/1#issue-3349851691",
+        "deployLink": "https://laboratorio02.netlify.app/"
+      },
+      {
+        "name": "Laboratorio 4",
+        "type": "Laboratorio",
+        "objective": "Responder las preguntas de la presentación (PPT), Resolver el mini caso final, explicando",
+        "date": "25/08/2025",
+        "technologies": ["txt"],
+        "repoLink": "",
+        "deployLink": ""
+      },
+      {
+        "name": "Laboratorio 5",
+        "type": "Laboratorio",
+        "objective": "Mejorar el programa del lab 3",
+        "date": "25/08/2025",
+        "technologies": ["HTML", "CSS"],
+        "repoLink": "https://github.com/tim-scarlith/lab-02/pull/1#issue-3349851691",
+        "deployLink": "https://laboratorio02.netlify.app/"
       },
       {
         "name": "Proyecto Portafolio",
-        "type": "Proyecto",
+        "type": "Portafolio",
         "objective": "Diseñar y desarrollar un portafolio web personal.",
         "date": "15/06/2025",
         "technologies": ["Next.js", "Tailwind CSS", "next-intl"],
-        "repoLink": "https://github.com/yourusername/portafolio-web",
-        "deployLink": "https://your-site.netlify.app"
+        "repoLink": "https://github.com/tim-scarlith/Portafolio",
+        "deployLink": "https://68c6fdfc3edb480008f1f355--portafoliotim.netlify.app/en"
       }
     ]
   },

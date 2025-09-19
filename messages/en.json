@@ -31,7 +31,8 @@
     "Tech": "Technologies ",
     "FechaEntr": "Delivery Date ",
     "Desde": "From ",
-    "Hasta": "To "
+    "Hasta": "To ",
+    "Course": "Course"
   },
   "AcademicWorkPage": {
   "AcaWorksXcurso": "Academic Work by Course",
