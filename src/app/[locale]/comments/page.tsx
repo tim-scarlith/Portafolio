@@ -10,16 +10,4 @@ export default function CommentsPage() {
     );
 }
 
-// // src/app/[locale]/comments/page.tsx
-// import CommentsSection from '@/app/components/CommentsSection';
-// import { getTranslations } from 'next-intl/server';
-// import BackButton from '@/app/components/backToLobbyButtom';
-// export default async function CommentsPage() {
-//     const t = await getTranslations('Comments');
-//     return (
-//         <main className="flex flex-col justify-start min-h-screen px-6">
-//             <BackButton/>
-//             <CommentsSection />
-//         </main>
-//     );
-// }
+

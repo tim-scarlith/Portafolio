@@ -2,11 +2,7 @@
 
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-// import { type AbstractIntlMessages } from 'next-intl';
 
-// interface VideoGameSectionProps {
-//   t: (key: string) => string;
-// }
 
 export default function VideoGameSection() {
     const t = useTranslations('VideoGameSection');

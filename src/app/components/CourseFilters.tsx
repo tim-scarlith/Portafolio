@@ -112,7 +112,7 @@ export default function CourseFilters({
         </div>
       </div>
       
-      {/* Filtros existentes */}
+      {/* Filtros */}
       <div className="mb-4">
         <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">{t('Eval')}</h3>
         <div className="flex flex-wrap gap-2">

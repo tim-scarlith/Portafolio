@@ -1,7 +1,6 @@
 'use client';
 import { useTranslations } from 'next-intl';
 import React from 'react';
-//import { type AbstractIntlMessages } from 'next-intl';
 
 interface BlogSectionProps {
   t: (key: string) => string;
