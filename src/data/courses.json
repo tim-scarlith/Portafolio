@@ -12,7 +12,7 @@
         "objective": "Laboratorio que invita al estudiante a investigar categorías clave del ecosistema web actual, comprendiendo su función dentro de un flujo de desarrollo profesional.",
         "date": "10/08/2025",
         "technologies": ["Markdown"],
-        "repoLink": "https://github.com/yourusername/ic8057-lab1",
+        "repoLink": "",
         "deployLink": "https://extraordinary-syrniki-0bd581.netlify.app/"
       },
       {
@@ -50,6 +50,15 @@
         "technologies": ["HTML", "CSS"],
         "repoLink": "https://github.com/tim-scarlith/lab-02/pull/1#issue-3349851691",
         "deployLink": "https://laboratorio02.netlify.app/"
+      },
+            {
+        "name": "Laboratorio 6",
+        "type": "Laboratorio",
+        "objective": "Practicas de JavaScript",
+        "date": "19/09/2025",
+        "technologies": ["HTML", "CSS"],
+        "repoLink": "https://github.com/tim-scarlith/Lab06.git",
+        "deployLink": ""
       },
       {
         "name": "Proyecto Portafolio",
