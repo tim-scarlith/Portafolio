@@ -68,6 +68,33 @@
         "technologies": ["Next.js", "Tailwind CSS", "next-intl"],
         "repoLink": "https://github.com/tim-scarlith/Portafolio",
         "deployLink": "https://68c6fdfc3edb480008f1f355--portafoliotim.netlify.app/en"
+      },
+        {
+        "name": "Laboratorio 7",
+        "type": "Laboratorio",
+        "objective": "Presentación en clase",
+        "date": "15/06/2025",
+        "technologies": [""],
+        "repoLink": " ",
+        "deployLink": " "
+      },
+        {
+        "name": "Laboratorio 8",
+        "type": "Laboratorio",
+        "objective": "Este laboratorio busca que el estudiante experimente el proceso completo de diseñar e implementar una API en Node.js con Express, aplicando estándares de la industria.",
+        "date": "03/10/2025",
+        "technologies": ["Postman, Node.js, Express"],
+        "repoLink": "https://github.com/tim-scarlith/lab08.git",
+        "deployLink": "https://documenter.getpostman.com/view/11958875/2sB3QGuBbn"
+      },
+      {
+        "name": "Laboratorio 9",
+        "type": "Laboratorio",
+        "objective": "El objetivo es comprender cómo un único endpoint puede atender múltiples operaciones con tipados y resolutores (resolvers) claros.",
+        "date": "03/10/2025",
+        "technologies": ["Postman, Node.js, Express, GraphQL"],
+        "repoLink": " ",
+        "deployLink": " "
       }
     ]
   },
